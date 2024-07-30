@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+    body {
+        font-family: "Quicksand", sans-serif;
+        font-weight: lighter;
+        margin: 0;
+        padding: 0;
+    }
+    
+    header {
+        background-color: white;
+        color: #008080;
+        padding: 20px;
+        text-align: center;
+        font-size: larger;
+        font-style: italic;
+    }
+    
+    .header-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 100%;
+        gap: 600px;
+    }
+    
+    .header-content img {
+        height: 100px;
+        width: auto;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        gap: 120px;
+    }
+    
+    nav ul li {
+        display: inline;
+        text-decoration: none;
+        color: #008080;
+        font-weight: bold;
+    }
+    
+    .banner {
+        background: linear-gradient(to right, #d3aaee, #19dada, rgb(63, 63, 228));
+        color: white;
+        text-align: center;
+        padding: 5px;
+        font-size: 1.2em;
+    }
+    
+    h3,h1{
+        line-height: 0px;
+        font-size: 200%
+    }
+    
+    main {
+       
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        padding: 20px;
+    }
+    
+    .section1 {
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 20px;
+        width: 20%;
+        background: linear-gradient(to bottom right , #a1b67b, rgb(94, 94, 192), rgb(202, 110, 67));
+    }
+    .section2 {
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 20px;
+        width: 20%;
+        background: linear-gradient(to bottom right ,  #a1b67b, rgb(94, 94, 192), rgb(202, 110, 67));
+    }
+    .section3 {
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 20px;
+        width: 20%;
+        background: linear-gradient(to bottom right ,  #a1b67b, rgb(94, 94, 192), rgb(202, 110, 67));
+    
+    .news-events ul, .quick-tips ul {
+        list-style-type: disc;
+        padding: 0;
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    form label, form input, form select {
+        margin-bottom: 5px;
+    }
+    
+    h2 {
+       
+        color:#008080;
+        border-bottom: 5px solid #ddd;
+        padding-bottom: 20px;
+    }
+    .black{
+        color: black;
+    }
+    
+</style>
+    <title>The Dental Hygiene Association</title>
+    </head>
+    
+    
+    <body>
+        <header>
+            <div class="header-content">
+                <img src="teeth3.jfif" alt="teeth">
+                <h1>The Dental Hygiene Association</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><u>Home</u></li>
+                    <li><u>Adults</u></li>
+                    <li><u>Kids</u></li>
+                    <li><u>News</u></li>
+                    <li><u>FAQ</u></li>
+                    <li><u>Glossary</u></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <div class="banner">
+            <h3>Only 46% of households buy toothbrushes</h3>
+            <h1>...........</h1>
+        </div>
+    
+    
+    
+        <main>
+            <section class="news-events, section1">
+                <center>
+                    <h2>News & Events</h2>
+                </center>
+                <ul class="black">
+                    <li>Irish Academy of Aesthetic Dentistry (IAAD) Meeting</li>
+                    <li>Irish dentists report on eating disorders</li>
+                    <li>IDA Annual Conference 2014</li>
+                    <li>Maternal saliva predicts dental outcomes</li>
+                    <li>New guidelines for dental care in elderly patients</li>
+                    <li>Advancements in dental implant technology</li>
+                </ul>
+            </section>
+            <section class="find-dentist, section2">
+                <center>
+                    <h2>Find a Dentist</h2>
+                </center>
+                <form class="black">
+                    <label for="first-name">First name of Dentist:</label>
+                    <input type="text" id="first-name" name="first-name" placeholder="enter here......">
+                    <label for="last-name">Last name:</label>
+                    <input type="text" id="last-name" name="last-name" placeholder="enter here......">
+                    <label for="location">Location:</label>
+                    <input type="text" id="location" name="location" placeholder="enter here......">
+                    <label for="type">What type of dentist are you looking for?</label>
+                    <select id="type" name="type">
+                        <option value="orthodontist">Orthodontist</option>
+                        <option value="general">General Dental Practitioner</option>
+                        <option value="General Dentist">General Dentist</option>
+                        <option value="Endodontist">Endodontist</option>
+                        <option value="Periodontist">Periodontist</option>
+                        <option value="Prosthodontist">Prosthodontist</option>
+                        <option value="Oral and Maxillofacial Surgeon">Oral and Maxillofacial Surgeon</option>
+                        <option value="Pediatric Dentist">Pediatric Dentist</option>
+                        <option value="Oral and Maxillofacial Radiologist">Oral and Maxillofacial Radiologist</option>
+                        <option value="Oral Pathologist">Oral Pathologist</option>
+                        <option value="Dental Anesthesiologist">Dental Anesthesiologist</option>
+                        <option value="Public Health Dentist">Public Health Dentist</option>
+                        <option value="Orofacial Pain Specialist">Orofacial Pain Specialist</option>
+                        <option value="Orthodontist">Orthodontist</option>
+    
+                    </select>
+                </form>
+            </section>
+            <section class="quick-tips, section3">
+                <center>
+                    <h2>Quick Tips</h2>
+                </center>
+                <ul class="black">
+                    <li>Change your toothbrush every 3 months</li>
+                    <li>Clean your tongue as well as your teeth</li>
+                    <li>Floss every day</li>
+                    <li>See your dentist every 6 months</li>
+                    <li>Cut down on how often you have sweet drinks and foods</li>
+                    <li>Use fluoride toothpaste</li>
+                    <li>Avoid using tobacco products</li>
+                </ul>
+            </section>
+        </main>
+    
+       
+    </body>
+    
+    </html>
